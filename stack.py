@@ -30,7 +30,7 @@ class Stack:
         return ret
     
 
-def __init__(self):
+if __name__ == '__main__':
     s = Stack()
     s.push("A")
     s.push("B")
